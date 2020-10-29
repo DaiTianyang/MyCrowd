@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.atguigu.crowd.entity&apos; to &apos;atcrowdfunding03-admin-component/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;atcrowdfunding04-admin-entity&apos;&#x0D;&#x0A;- Destination element: &apos;atcrowdfunding03-admin-component/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;atcrowdfunding04-admin-entity/src/main/java/com.atguigu.crowd.entity&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=atcrowdfunding03-admin-component/src\/main\/java" element1="/src\/main\/java&lt;com.atguigu.crowd.entity" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1594540477511" version="1.0"/>
+</session>

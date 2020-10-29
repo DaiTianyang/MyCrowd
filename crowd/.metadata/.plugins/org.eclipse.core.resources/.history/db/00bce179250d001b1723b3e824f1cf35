@@ -1,0 +1,16 @@
+package com.atguigu.crowd.entity.vo;
+
+public class AddressVO {
+
+	//address的id
+	private Integer id;
+	// 收货人姓名
+	private String receiveName;
+	// 电话号码
+	private String phoneNum;
+	// 详细地址
+	private String address;
+	// 用户id
+	private Integer memberId;
+
+}

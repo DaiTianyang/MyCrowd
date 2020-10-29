@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.atguigu.crowd.mvc.constant&apos; to &apos;atcrowdfunding05-common-util/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;atcrowdfunding03-admin-component&apos;&#x0D;&#x0A;- Destination element: &apos;atcrowdfunding05-common-util/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;atcrowdfunding03-admin-component/src/main/java/com.atguigu.crowd.mvc.constant&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=atcrowdfunding05-common-util/src\/main\/java" element1="/src\/main\/java&lt;com.atguigu.crowd.mvc.constant" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1595715383271" version="1.0"/>
+</session>

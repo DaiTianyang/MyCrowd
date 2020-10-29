@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CrowdExceptionResolver.java&apos; to &apos;atcrowdfunding12-member-authentication-consumer/src/main/java/com.atguigu.crowd.config&apos;&#x0D;&#x0A;- Original project: &apos;atcrowdfunding03-admin-component&apos;&#x0D;&#x0A;- Destination element: &apos;atcrowdfunding12-member-authentication-consumer/src/main/java/com.atguigu.crowd.config&apos;&#x0D;&#x0A;- Original element: &apos;com.atguigu.crowd.mvc.config.CrowdExceptionResolver.java&apos;" description="Copy compilation unit" destination="=atcrowdfunding12-member-authentication-consumer/src\/main\/java&lt;com.atguigu.crowd.config" element1="/src\/main\/java&lt;com.atguigu.crowd.mvc.config{CrowdExceptionResolver.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1601254268271" units="1" version="1.0"/>
+</session>

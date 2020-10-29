@@ -1,0 +1,43 @@
+package com.atguigu.crowd.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.atguigu.crowd.entity.vo.AddressVO;
+import com.atguigu.crowd.entity.vo.OrderProjectVo;
+import com.atguigu.crowd.mapper.AddressPoMapper;
+import com.atguigu.crowd.mapper.OrderPoMapper;
+import com.atguigu.crowd.mapper.OrderProjectPoMapper;
+import com.atguigu.crowd.service.OrderService;
+
+@Transactional(readOnly = true)
+@Service
+public class OrderServiceImpl implements OrderService {
+
+	@Autowired
+	private OrderProjectPoMapper orderProjectPoMapper;
+	
+	@Autowired
+	private OrderPoMapper orderPoMapper;
+	
+	@Autowired
+	private AddressPoMapper addressPoMapper;
+
+	@Override
+	public OrderProjectVo getOrderProjectVo(Integer projectId, Integer returnId) {
+		
+		return orderProjectPoMapper.selectOrderProjectVO(returnId);
+	}
+
+	@Override
+	public List<AddressVO> getAddressVO(Integer memberId) {
+		
+		
+		return null;
+	}
+	
+	
+}

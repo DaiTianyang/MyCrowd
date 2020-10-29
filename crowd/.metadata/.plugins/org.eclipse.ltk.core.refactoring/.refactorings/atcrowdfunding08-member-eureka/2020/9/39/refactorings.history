@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.atguigu.crowd&apos; to &apos;atcrowdfunding10-member-mysql-provider/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;atcrowdfunding08-member-eureka&apos;&#x0D;&#x0A;- Destination element: &apos;atcrowdfunding10-member-mysql-provider/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;atcrowdfunding08-member-eureka/src/main/java/com.atguigu.crowd&apos;" description="Copy package" destination="=atcrowdfunding10-member-mysql-provider/src\/main\/java" element1="/src\/main\/java&lt;com.atguigu.crowd" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1600996960401" version="1.0"/>
+</session>

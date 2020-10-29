@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 0 packages to &apos;atcrowdfunding13-member-project-provider/src/main/java&apos;&#x0D;&#x0A;- Destination element: &apos;atcrowdfunding13-member-project-provider/src/main/java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move packages" destination="=atcrowdfunding13-member-project-provider/src\/main\/java" flags="589830" fragments="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1601429269157" version="1.0"/>
+</session>

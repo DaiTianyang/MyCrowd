@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;atcrowdfunding04-admin-entity&apos;&#x0D;&#x0A;- Original project: &apos;atcrowdfunding04-admin-entity&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.atguigu.crowd.entity.Address.java&#x0D;&#x0A;     com.atguigu.crowd.entity.Student.java&#x0D;&#x0A;     com.atguigu.crowd.entity.Subject.java" description="Delete elements" element1="/src\/main\/java&lt;com.atguigu.crowd.entity{Student.java" element2="/src\/main\/java&lt;com.atguigu.crowd.entity{Address.java" element3="/src\/main\/java&lt;com.atguigu.crowd.entity{Subject.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1595975542207" subPackages="false" version="1.0"/>
+</session>

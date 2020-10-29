@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.atguigu.crowd</groupId>
+	<artifactId>pro04-spring-annotation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+	<!-- 这里并不是使用springmvc,仅仅借助这个依赖把spring的环境导入 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.3.20.RELEASE</version>
+		</dependency>
+	</dependencies>
+</project>

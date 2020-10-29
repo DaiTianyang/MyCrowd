@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<base th:href="@{/}">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/theme.css">
+<style>
+#footer {
+	padding: 15px 0;
+	background: #fff;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+
+#topcontrol {
+	color: #fff;
+	z-index: 99;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	background: #222;
+	position: relative;
+	right: 14px !important;
+	bottom: 11px !important;
+	border-radius: 3px !important;
+}
+
+#topcontrol:after {
+	/*top: -2px;*/
+	left: 8.5px;
+	content: "\f106";
+	position: absolute;
+	text-align: center;
+	font-family: FontAwesome;
+}
+
+#topcontrol:hover {
+	color: #fff;
+	background: #18ba9b;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+</style>
+</head>
+<body>
+	<footer th:fragment="member-head">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html" style="font-size: 32px;" th:href="@{/}">尚筹网-创意产品众筹平台</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse"
+					style="float: right;">
+					<ul class="nav navbar-nav">
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i>
+								[[${session.loginMember.userName}]]<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="member.html"><i
+										class="glyphicon glyphicon-scale"></i> 会员中心</a></li>
+								<li><a href="#"><i class="glyphicon glyphicon-comment"></i>
+										消息</a></li>
+								<li class="divider"></li>
+								<li><a href="index.html" th:href="@{/auth/member/do/logout}"><i
+										class="glyphicon glyphicon-off"></i> 退出系统</a></li>
+							</ul></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</footer>
+
+	<footer th:fragment="member-left">
+		<div class="col-sm-3 col-md-3 column">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="thumbnail" style="border-radius: 0px;">
+						<img src="img/services-box1.jpg" class="img-thumbnail" alt="">
+						<div class="caption" style="text-align: center;">
+							<h3>[[${session.loginMember.userName}]]</h3>
+							<span class="label label-danger" style="cursor: pointer;"
+								onclick="window.location.href='accttype.html'">未实名认证</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-group">
+				<!-- active表示选中项 -->
+				<div class="list-group-item " th:class="${activeUri=='center'?'list-group-item active':'list-group-item'}">
+					<a th:href="@{/auth/member/to/center/page}" th:style="${activeUri=='center'?'color: white; cursor: pointer;':''}">资产总览</a><span
+						class="badge"><i class="glyphicon glyphicon-chevron-right"></i></span>
+				</div>
+				<!-- style="cursor: pointer;"鼠标悬浮变成手指 -->
+				<div class="list-group-item " th:class="${activeUri=='mycrowd'?'list-group-item active':'list-group-item'}">
+					<a th:href="@{/member/my/crowd}" th:style="${activeUri=='mycrowd'?'color: white; cursor: pointer;':''}">我的众筹</a><span class="badge"><i
+						class="glyphicon glyphicon-chevron-right"></i></span>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

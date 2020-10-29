@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;footer.html&apos; to &apos;templates&apos;&#x0D;&#x0A;- Original project: &apos;atcrowdfunding12-member-authentication-consumer&apos;&#x0D;&#x0A;- Destination element: &apos;templates&apos;&#x0D;&#x0A;- Original element: &apos;footer.html&apos;" description="Copy file" element1="src/main/resources/templates/footer.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1601953788614" target="/atcrowdfunding13-member-project-provider/src/main/resources/templates" units="0" version="1.0"/>
+</session>

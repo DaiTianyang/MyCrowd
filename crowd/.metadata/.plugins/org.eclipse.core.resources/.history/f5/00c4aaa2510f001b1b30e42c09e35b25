@@ -1,0 +1,22 @@
+package com.atguigu.crowd.entity.vo;
+
+public class OrderVO {
+
+	private Integer id;
+
+	private String orderNum;
+
+	private String payOrderNum;
+
+	private Double orderAmount;
+
+	private Integer invoice;
+
+	private String invoiceTitle;
+
+	private String orderRemark;
+
+	private String addressId;
+	
+	private OrderProjectVo orderProjectVo;
+}

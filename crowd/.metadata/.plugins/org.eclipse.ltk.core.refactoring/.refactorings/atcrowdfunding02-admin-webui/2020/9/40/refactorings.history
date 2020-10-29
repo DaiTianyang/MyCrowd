@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;system-error.jsp&apos; to &apos;templates&apos;&#x0D;&#x0A;- Original project: &apos;atcrowdfunding02-admin-webui&apos;&#x0D;&#x0A;- Destination element: &apos;templates&apos;&#x0D;&#x0A;- Original element: &apos;system-error.jsp&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/system-error.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1601254314266" target="/atcrowdfunding12-member-authentication-consumer/src/main/resources/templates" units="0" version="1.0"/>
+</session>

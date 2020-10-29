@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=atcrowdfunding03-admin-component/src\/main\/java&lt;com.atguigu.crowd.service.api{AdminService.java[AdminService" modifiers="513" timestamp="1600787438809"/>
+<typeInfo handle="=atcrowdfunding03-admin-component/src\/main\/java&lt;com.atguigu.crowd.mvc.handler{AdminHandler.java[AdminHandler" modifiers="1" timestamp="1600858529720"/>
+<typeInfo handle="=atcrowdfunding03-admin-component/src\/main\/java&lt;com.atguigu.crowd.service.impl{AdminServiceImpl.java[AdminServiceImpl" modifiers="1" timestamp="1601213333285"/>
+<typeInfo handle="=atcrowdfunding05-common-util/src\/main\/java&lt;com.atguigu.crowd.util{ResultEntity.java[ResultEntity" modifiers="1" timestamp="1594643537576"/>
+<typeInfo handle="=atcrowdfunding04-admin-entity/src\/main\/java&lt;com.atguigu.crowd.entity{Role.java[Role" modifiers="1" timestamp="1595975654871"/>
+<typeInfo handle="=atcrowdfunding04-admin-entity/src\/main\/java&lt;com.atguigu.crowd.entity{Admin.java[Admin" modifiers="1" timestamp="1594545571100"/>
+</typeInfoHistroy>
